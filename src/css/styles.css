@@ -1,13 +1,30 @@
-.left {
-    float: left;
-    width: 400px;
-
+body {
+    font-family: "Calibri", sans-serif;
+    background-color: black;
 }
 
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.right {
+    scale: 2;
+    text-align: center;
+    color: lightgrey;
+    margin: 40px;
+}
+
+
+
+
+/* Matrix = Nichts ändern!! */
 .matrix {
-    background-color: black;
-    width: 325px;
-    height: 325px;
+    margin-inline: auto;
+    background-color: dimgrey;
+    width: fit-content;
+    height: 845px;
 }
 
 .row {
@@ -15,9 +32,9 @@
 }
 
 .led {
-    background-color: #ececec;
-    width: 35px;
-    height: 35px;
+    background-color: lightgrey;;
+    width: 100px;
+    height: 100px;
     float: left;
     margin: 5px 0px 0px 5px;
     border-radius: 50%;
@@ -25,8 +42,4 @@
 
 .on {
     background-color: #ff3535;
-}
-
-.right {
-    float: left;
 }
