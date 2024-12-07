@@ -4,6 +4,7 @@ ncols = 8;
 leds = new Array(nrows).fill(0).map(function(row){
     return new Array(ncols).fill(0);});
 
+
 function toggleLed (row, col) {
     leds[row][col] = leds[row][col] === 1 ? 0 : 1;
     var elem = document.getElementById ('led' + row + '_' + col);
