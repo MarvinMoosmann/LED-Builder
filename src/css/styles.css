@@ -1,16 +1,17 @@
 body {
     font-family: "Calibri", sans-serif;
     background-color: black;
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: lightgrey;
 }
 
 .right {
-    scale: 2;
+    scale: 1.7;
     text-align: center;
     color: lightgrey;
     margin: 40px;
@@ -23,8 +24,9 @@ h1 {
 .matrix {
     margin-inline: auto;
     background-color: dimgrey;
-    width: fit-content;
-    height: 845px;
+    width: 685px;
+    height: 685px;
+    border-radius: 6%;
 }
 
 .row {
@@ -33,8 +35,8 @@ h1 {
 
 .led {
     background-color: lightgrey;;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     float: left;
     margin: 5px 0px 0px 5px;
     border-radius: 50%;
